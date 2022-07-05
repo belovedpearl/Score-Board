@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+@font-face {
+    font-family: 'pearl';
+    src: url('newfont.ttf');
+}
+.container {
+    background-color: rgb(20, 20, 49);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.container div{
+    color: white;
+}
+h1{
+    font-family: 'pearl';
+    padding-left: 30px;
+    border: 50px;
+    margin: 50px;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    font-size: 150px;
+    text-align: center;
+    color: crimson;
+}
+h2{
+    font-size: 80px;
+}
+button{
+   background-color: rgb(20, 20, 49);
+   justify-content: center;
+   padding: 7px;
+   margin: 5px;
+   color: white;
+   border-color: white;
+}
