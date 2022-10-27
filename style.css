@@ -28,6 +28,7 @@ h1{
     font-size: 150px;
     text-align: center;
     color: crimson;
+
 }
 h2{
     font-size: 80px;
@@ -39,4 +40,16 @@ button{
    margin: 5px;
    color: white;
    border-color: white;
+}
+
+.ng{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    width: 20vw;
+    font-size: larger;
+    border-radius: 10px;
+    font-weight: bold;
+
 }
