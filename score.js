@@ -62,14 +62,18 @@ newGame.addEventListener('dblclick', function(){
 })
 
 function highlight(){
-  if (score > scoreb){
-    score1.classList.add('highlight')
-    score2.classList.remove('highlight')
-  }else if (score < scoreb){
-    score2.classList.add('highlight')
-    score1.classList.remove('highlight')
-   }else{
-    score2.classList.remove('highlight')
-    score1.classList.remove('highlight')
-   }
+  // if (score > scoreb){
+  //   score1.classList.add('highlight')
+  //   score2.classList.remove('highlight')
+  // }else if (score < scoreb){
+  //   score2.classList.add('highlight')
+  //   score1.classList.remove('highlight')
+  //  }else{
+  //   score2.classList.remove('highlight')
+  //   score1.classList.remove('highlight')
+
+   // }
+   score1.classList.toggle('highlight', score > scoreb)
+   score2.classList.toggle('highlight', score < scoreb)
+
 }
